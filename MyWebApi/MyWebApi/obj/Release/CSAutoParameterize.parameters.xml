@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="Model1-Web.config Connection String" description="Model1 Connection String used in web.config by the application to access the database." defaultValue="data source=DRANA\SQLEXPRESS;initial catalog=Futbol_Db;integrated security=True;MultipleActiveResultSets=True;App=EntityFramework" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Baris\\source\\repos\\MyWebApi\\MyWebApi\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='Model1']/@connectionString" />
+  </parameter>
+</parameters>
